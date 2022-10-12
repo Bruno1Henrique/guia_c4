@@ -6,11 +6,17 @@
     :root{
         --cor1:#0069b4;
         --cor2:#008AED;
+        --cor3:#d80520;
+        --cor4:#40cedb;
+        --cor4:#8340db;
     }
 
     body{
-        background-image: url(pexels-pixabay-531880.jpg);
-
+        background-image: url(dev.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #0d2f4b;
     }
 
     header{
@@ -40,9 +46,33 @@
 
     }
 
-    main p{
+    #desk{
+        text-align: center;
+        background-color: var(--cor3);
+        margin: 20px 38%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    #web{
         text-align: center;
         background-color: var(--cor2);
+        margin: 20px 38%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    #ambos{
+        text-align: center;
+        background-color: var(--cor4);
         margin: 20px 38%;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -56,7 +86,12 @@
         text-decoration: none;
     }
 
-    main p:hover{
+    main #desk:hover{
+        background-color: rgba(0, 0, 0, 0.404);
+        border: 1px solid white;
+    }
+
+    main #web:hover{
         background-color: rgba(0, 0, 0, 0.404);
         border: 1px solid white;
     }
