@@ -8,7 +8,7 @@
         --cor2:#008AED;
         --cor3:#d80520;
         --cor4:#40cedb;
-        --cor4:#8340db;
+        --cor5:#8340db;
     }
 
     body{
@@ -29,9 +29,7 @@
 
     h1{
         margin: auto;
-        padding-right: 320px;
-        
-        
+        padding-right: 320px;  
     }
 
     main h4{
@@ -43,57 +41,87 @@
         color: white;
         box-shadow: 1px 1px 10px black;
         font-size: 1.1em;
-
-    }
-
-    #desk{
-        text-align: center;
-        background-color: var(--cor3);
-        margin: 20px 38%;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        border-radius: 10px;
-        padding: 10px;
-        font-weight: bold;
-        box-shadow: 1px 1px 10px black;
-    }
-
-    #web{
-        text-align: center;
-        background-color: var(--cor2);
-        margin: 20px 38%;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        border-radius: 10px;
-        padding: 10px;
-        font-weight: bold;
-        box-shadow: 1px 1px 10px black;
-    }
-
-    #ambos{
-        text-align: center;
-        background-color: var(--cor4);
-        margin: 20px 38%;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        border-radius: 10px;
-        padding: 10px;
-        font-weight: bold;
-        box-shadow: 1px 1px 10px black;
     }
 
     main a{
         text-decoration: none;
     }
 
+    #desk {
+        text-align: center;
+        background-color: var(--cor3);
+        width: 260px;
+        margin: 7px 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+        display: inline-block;
+    }
+
+    #ambos{
+        text-align: center;
+        background-color: var(--cor5);
+        width: 260px;
+        margin: 7px 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+        display: inline-block;
+    }
+
+    #web{
+        text-align: center;
+        background-color: var(--cor4);
+        width: 260px;
+        margin: 7px 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+        display: inline-block;
+    }
+
+    /*Efeito ao passar com o mouse*/
     main #desk:hover{
         background-color: rgba(0, 0, 0, 0.404);
         border: 1px solid white;
     }
 
+    main #ambos:hover{
+        background-color: rgba(0, 0, 0, 0.404);
+        border: 1px solid white;
+    }
+ 
     main #web:hover{
         background-color: rgba(0, 0, 0, 0.404);
         border: 1px solid white;
     }
 
+    /*Botao de voltar*/
+    #voltar{
+        text-align: center;
+        background-color: white;
+        width: 60px;
+        margin: 30px 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px black;
+        display: inline-block;
+    }
 
+    main #voltar:hover{
+        background-color: rgba(0, 0, 0, 0.404);
+        border: 1px solid white;
+        color: white;
+    }
