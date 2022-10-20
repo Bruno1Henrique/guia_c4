@@ -10,7 +10,6 @@
 
     body{
         background-image: url(imagens/inicio.jpg);
-
     }
 
     header{
@@ -23,11 +22,10 @@
 
     h1{
         margin: auto;
-        padding-right: 320px;
-        
-        
+        padding-right: 320px; 
     }
 
+    /*Aqui você irá encontrar...*/
     main h4{
         text-align: center;
         padding: 30px;
@@ -37,28 +35,40 @@
         color: white;
         box-shadow: 1px 1px 10px black;
         font-size: 1.1em;
-
     }
 
-    main p{
+    /*Desenvolvimento*/
+    #dev{
         text-align: center;
-        background-color: var(--cor2);
-        margin: 20px 38%;
+        background-color: var(--cor1);
+        width: 260px;
+        margin: 7px 39%;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         border-radius: 10px;
         padding: 10px;
         font-weight: bold;
         box-shadow: 1px 1px 10px black;
+        display: inline-block;
     }
 
     main a{
         text-decoration: none;
     }
 
-    main p:hover{
+    /*Efeito ao passar o mouse*/
+    #dev:hover{
         background-color: rgba(0, 0, 0, 0.404);
         border: 1px solid white;
     }
-
-
+    
+    footer{
+        background-color: var(--cor2);
+        color:white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        width: 100%;
+        position: absolute;
+        bottom: 0;              
+    }
